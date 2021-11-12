@@ -54,34 +54,50 @@ Users should be able to Code/Understand:
 - Semantic HTML5 markup
 - CSS custom properties
 - JavaScript
+- Chrome Dev tools
 
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Making a chrome extension is much easier than it looks like.
 
 To see how you can add code snippets, see below:
 
+This is the only "hard coded" part of my html list of leads
 ```html
-<h1>Some HTML code I'm proud of</h1>
+        <ul id="ul-el">
+        </ul>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+The list is rendered dynamicly, after being turned into a string. The string conversion happens for performance purposes, given that innerHTML is taxing. Changing the DOM is never free, and keeping performance costs to a minimum is always a good idea
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+function render(leads) {
+    let listItems = ""
+    for (let i = 0; i < leads.length; i++) {
+        listItems += `
+            <li>
+                <a target='_blank' href='${leads[i]}'>
+                    ${leads[i]}
+                </a>
+            </li>
+        `
+    }
+    ulEl.innerHTML = listItems
 }
 ```
-
+Grabbing the current tab on chrome is much easier than it looks. Interesting is that how it actually make sence to have a tab be checked at the same time for "active" and currentWindow status. Maybe you have two broswers open... you want to select the tab you are using, not the one on the background.
+```js
+tabBtn.addEventListener("click", function(){    
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+        myLeads.push(tabs[0].url)
+        localStorage.setItem("myLeads", JSON.stringify(myLeads) )
+        render(myLeads)
+    })
+})
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+The course is getting more and more interesting. I'm very surprised how educational coding a chrome extension (witha real world use) can be.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
