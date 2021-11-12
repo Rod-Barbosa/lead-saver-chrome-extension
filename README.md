@@ -1,6 +1,6 @@
 # Scrimba Frontend Career Path - (Leads Saver Chrome Extension - Module 03)
 
-This is a solution to the [Scrimba Frontend Career Path - (Module/App name here)](https://scrimba.com/learn/frontend).
+This is a solution to the [Scrimba Frontend Career Path - (Leads Saver Chrome Extension - Module 03)](https://scrimba.com/learn/frontend).
 
 ## Table of contents
 
