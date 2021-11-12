@@ -44,7 +44,7 @@ Users should be able to Code/Understand:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Rod-Barbosa/lead-saver-chrome-extension)
+- Solution Github URL: [https://github.com/Rod-Barbosa/lead-saver-chrome-extension](https://github.com/Rod-Barbosa/lead-saver-chrome-extension)
 - Live Site URL: [https://rodrigo-lead-saver-chrome-extension.netlify.app/](https://rodrigo-lead-saver-chrome-extension.netlify.app/)
 - May hte next one do a better job at translating a browser extension into a website. 
 - If you want to install and see how it works, click the github link, download the files, open your google chrome extensions and point the downloads folder. It should do the trick.
@@ -124,6 +124,4 @@ The course is getting more and more interesting. I'm very surprised how educatio
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks again the SO for showing hwo to deal with crome tabs without having to read all the documentation
