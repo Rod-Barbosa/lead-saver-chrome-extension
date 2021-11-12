@@ -44,8 +44,10 @@ Users should be able to Code/Understand:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Rod-Barbosa/lead-saver-chrome-extension)
+- Live Site URL: [https://rodrigo-lead-saver-chrome-extension.netlify.app/](https://rodrigo-lead-saver-chrome-extension.netlify.app/)
+- May hte next one do a better job at translating a browser extension into a website. 
+- If you want to install and see how it works, click the github link, download the files, open your google chrome extensions and point the downloads folder. It should do the trick.
 
 ## My process
 
