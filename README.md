@@ -1,4 +1,4 @@
-# Scrimba Frontend Career Path - (Module/App name here)
+# Scrimba Frontend Career Path - (Leads Saver Chrome Extension - Module 03)
 
 This is a solution to the [Scrimba Frontend Career Path - (Module/App name here)](https://scrimba.com/learn/frontend).
 
@@ -21,13 +21,21 @@ This is a solution to the [Scrimba Frontend Career Path - (Module/App name here)
 
 ### The challenge
 
-Users should be able to:
+Users should be able to Code/Understand:
 
-- Describe the objectives of the challenge
+- const
+- addEventListener()
+- innerHTML
+- input.value
+- fucntion parameters
+- template strings
+- localStorage
+- The JSON object
+- objects in arrays
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./initial.png)
 
 
 
