@@ -93,6 +93,10 @@ tabBtn.addEventListener("click", function(){
     })
 })
 ```
+This saves the Leads after the tab is closed. Allowing for a much better extension. You don't have to keep it open in order to maintain the saved Leads.
+```js
+localStorage.setItem("myLeads", JSON.stringify(myLeads) )
+```
 
 ### Continued development
 
@@ -105,6 +109,8 @@ The course is getting more and more interesting. I'm very surprised how educatio
 - [.value](https://stackoverflow.com/questions/11563638/how-do-i-get-the-value-of-text-input-field-using-javascript) - This is always gonna be there. Grabbing the actual value the user is inputting on the browser. This will become second nature and it is nice to know how it works
 - [Clear textbox JavaScript](https://stackoverflow.com/questions/4135818/how-to-clear-a-textbox-using-javascript) - Very rarely we want the input field to keep what was just saved
 - [Open Link on another tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/) - target="_blank"
+- [Double click Event](https://techstacker.com/how-to-detect-double-clicks-with-vanilla-javascript/) - To avoid losing all your leads but accident, delete checks for double click before clearing localStorage
+- [Select current Tab Chrome](https://stackoverflow.com/questions/6718256/how-do-you-use-chrome-tabs-getcurrent-to-get-the-page-object-in-a-chrome-extensi) - Easier to go on SO than to go to the google official explanation
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
